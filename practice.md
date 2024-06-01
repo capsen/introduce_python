@@ -67,3 +67,30 @@ The average number is 24.96666666667
 
 ## Practice Workshop 5
 1. Create a python file **combine.py** to let people enter the filename in the data folder. (Please exclude the "-A.txt" in the file name). Then it will read <filename-A.txt> and <filename-B.txt> file, read each line from each file and combine them line by line, odd line be A.txt file and even line be B.txt file. Save the combined text and save to <filename-out.txt> file. Also print out the content to see what's the picture generated.
+
+## Practice Workshop 6
+1. Define a Book Class
+
+```
+Attributes: title, author, isbn, price, stock
+Methods: display_info(), add_stock(), sell_book()
+```
+
+2. Define a Specialized Book Class
+```
+Create a subclass of Book called EBook with an additional attribute for file format (file_format).
+```
+
+3. Create an Inventory Class
+```
+Attributes: books (a list to store Book objects)
+Methods: add_book(), remove_book(), find_book(), display_inventory()
+```
+
+4. Main Program
+```
+Create an instance of Inventory
+Add a few books to the inventory
+Display the inventory
+Simulate selling a book and updating the stock
+```
