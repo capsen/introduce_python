@@ -83,3 +83,10 @@ elephant = Elephant()
 print(dog.make_sound())
 print(cat.make_sound())
 print(elephant.make_sound())
+
+class Horse(Animal):
+    def make_sound(self):
+        return "Neigh!"
+
+horse = Horse()
+print(horse.make_sound())
